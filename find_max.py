@@ -1,6 +1,6 @@
 def find_max(numbers):
     if not numbers:
-        return None  # Optional: handle empty list
+        raise ValueError("The list is empty")
 
     max_value = numbers[0]  # Start with the first number
     for num in numbers:
