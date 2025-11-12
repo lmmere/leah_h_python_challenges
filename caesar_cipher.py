@@ -1,5 +1,5 @@
 def caesar_cipher(text, shift):
-    result = ""
+    result = ''
     for char in text:
         if char.isalpha():
             base = ord('A') if char.isupper() else ord('a')
